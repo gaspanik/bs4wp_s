@@ -1,0 +1,16 @@
+{
+  "name": "BSC4WP_s",
+  "version": "0.0.1",
+  "description": "Browser-Sync Config for WordPress Theme Development ~ underscores",
+  "main": "index.php",
+  "scripts": {
+    "start": "browser-sync start",
+    "postinstall": "git clone git@github.com:Automattic/_s.git ../underscores",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masaaki Komori",
+  "license": "GPL",
+  "dependencies": {
+    "browser-sync": "^0.9.1"
+  }
+}
